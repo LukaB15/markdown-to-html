@@ -1,0 +1,48 @@
+h1{
+    font-family: 'Courier New', monospace;
+}
+p.italic{
+    font-family: monospace;
+    color: #0D00A4;
+    font-size : 20px;
+}
+h2,h3,p,h4{
+    color: #0D00A4;
+    font-family: monospace;
+}
+table thead{
+    background-color:#9892D9;
+}
+ul #sous-liste{
+    list-style-type: "→ ";
+  }
+
+p{
+    padding-bottom: 20px;
+    
+}
+
+a{
+    background-color: #9892D9;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+    border:1px solid #9892D9;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.previous{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a.next{
+    margin-left:20px;
+}
+a:hover{
+    background-color: white;
+    color:#9892D9;
+    border:1px solid #9892D9;
+    padding:10px;
+    font-size: 20px;
+}
+
