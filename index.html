@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>Markdown to HTML</title>
 </head>
 <body>
     <H1> Luka Brabant</H1>
 
-    <p></p><em>Time is what we want most but what we use worst</em></p>
+    <p class="italic"><em> "Time is what we want most but what we use worst"</em></p>
 
     <img src="luka.jpg">
 
     <h3>  I'm a discret person who is trying to improve that !</h3>
-
+   
     <table border="1">
         <thead>
             <tr>
@@ -29,7 +30,7 @@
             </tr>
             <tr>
                 <td>Favourite color</td>
-                <td>Green</td>
+                <td style="color: greenyellow">Green</td>
             </tr>
             <tr>
                 <td>Favourite food</td>
@@ -37,7 +38,7 @@
             </tr>
             <tr>
                 <td>Pinapple on pizza ?</td>
-                <td> <input type="checkbox" name="vehicle3" value="Boat" checked disabled="disabled"></td>
+                <td> <input type="checkbox" name="vehicle3" value="Boat"  disabled="disabled">NO !</td>
             </tr>
         </tbody>
     </table>
@@ -47,20 +48,23 @@
         <li> Playing basketball</li>
     
         <li> Watching sports</li>
-            <ul>
-            <li>Football</li>
-            <li>Basketball</li>
-            <li>Formula 1</li>
+            <ul id="sous-liste">
+            <li>Football &#9917;</li>
+            <li>Basketball &#127936;</li>
+            <li>Formula 1 &#128663;</li>
             </ul>
         <li>Playing video games</li>
     </ul>
 
-    <h3>You can always count on me when you need help and you struggle with something.</h3>
+    <h2>You can always count on me when you need help and you struggle with something.</h3>
 
     <h4>When I was young I tought that people who lived before 1900 were living the life in black and white until the color came for the television. </h4>
 
     <p>I was a bit dumb when I was a kid</p>
-
-    <a href="https://github.com/Shikibata/markdown-challenge.git">Previous</a>--------<a href="https://github.com/MaximeHoll/markdown-challenge">Next</a>
+    
+    <p>
+         <a  class ="previous" href="https://github.com/Shikibata/markdown-challenge.git">Previous</a><a  class ="next" href="https://github.com/MaximeHoll/markdown-challenge">Next</a>
+    </p>
+    
 </body>
 </html>
